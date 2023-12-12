@@ -53,24 +53,6 @@ $hotels = [
 </head>
 
 <body>
-    <!-- <?php
-            foreach ($hotels as $key => $hotels_info) { ?>
-
-        <h2><?php echo $hotels_info['name']; ?></h2>
-        <h3><?php echo $hotels_info['description']; ?></h3>
-
-        <?php if ($hotels_info['parking'] == false) { ?>
-            <p>No</p>
-        <?php } else { ?>
-            <p>Yes</p>
-        <?php } ?>
-
-        <p><?php echo $hotels_info['vote']; ?></p>
-        <p><?php echo $hotels_info['distance_to_center']; ?></p>
-
-    <?php } ?> -->
-
-
 
     <table class="table table-bordered">
         <thead>
